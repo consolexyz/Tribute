@@ -1,0 +1,139 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    top:600%;
+    left:45%;
+}
+ul li{
+    margin-left:15px;
+}
+ul a{
+    text-align:center;
+    color: white !important;
+}
+figcaption{
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+.bg-stevejobs{
+    position: relative;
+    width:100%;
+    height: 90%;
+}
+.bg-text{
+    position: absolute;
+    top: 300px;
+    left:120px;
+    color: white;
+    padding-top:3%;
+}
+ .bg-text h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.bg-text p{
+text-align: center;
+}
+.personal-life-text{
+    padding-top: 3%;
+}
+.personal-life-img{
+    position: relative;
+    width: 70%;
+}
+.personal-life{
+    background-color:lightgray;
+    padding: 5% 10%;
+}
+ h1{
+font-size: 48px;
+text-align: center;
+}
+.education-section{
+   padding-top:2%;
+   padding-right:8%;
+   padding-left:8%;
+   padding-bottom: -2%;
+    background-color: black;
+    color: white;
+}
+.education{
+padding-top:3%;
+}
+.education-text{
+    padding-top:5%;
+    margin-right:-10px;
+}
+.apple{
+    margin-top: -5px;
+}
+.apple-section{
+    padding: 5% 6%;
+    background-color: black;
+    color: white;
+}
+.apple-first-text{
+    padding-top:9%;
+}
+.apple-figure{
+    width:20%;
+    padding-top:4%;
+}
+.battle-heading{
+    padding-bottom:3%;
+}
+.battle{
+    padding:5% 10% ;
+    background-color:lightgray;
+}
+.battle-image{
+    width:98%;
+}
+.tri-image{
+    position: relative;
+    top:10%;
+    bottom:20%;
+    left:45%;
+    
+     width:10% !important;
+     border-radius: 100%;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top:2%;
+    padding:2%;
+}
+footer p{
+    text-align: center;
+}
+.last-words{
+    padding:5% 8%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+@media  screen and (min-width:450px){
+.bg-text{
+    margin-bottom:300px;
+    margin-left:-20px !important;
+}
+.last-words-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.tri-image{
+    width: 15%;
+    text-align: center;
+}
+
+}
