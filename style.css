@@ -1,47 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Montserrat:ital@1&display=swap');
 html,body{
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
-ul{
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    position: absolute;
-    top:600%;
-    left:45%;
-}
-ul li{
-    margin-left:15px;
-}
-ul a{
-    text-align:center;
-    color: white !important;
-}
-figcaption{
-    font-style: italic;
-    font-size: small;
+h1{
+    font-size:55px;
     text-align: center;
+    }
+    
+figcaption{
+        font-style: italic;
+        font-size: small;
+        text-align: center;
+    }
+/* header-section */
+.steve-heading{
+    font-family: 'Lemonada', cursive;
 }
+
 .bg-stevejobs{
     position: relative;
     width:100%;
-    height: 90%;
+    height: 100%;
 }
 .bg-text{
-    position: absolute;
-    top: 300px;
-    left:120px;
+    position: absolute !important;
+    top:50% !important;
+    left:25% !important;
     color: white;
     padding-top:3%;
+    display:inline;
 }
  .bg-text h1{
-    font-size: 48px;
+    font-size:60px !important;
     font-weight: 600;
 }
 .bg-text p{
 text-align: center;
 }
+/* personal life section */
 .personal-life-text{
     padding-top: 3%;
 }
@@ -53,10 +52,7 @@ text-align: center;
     background-color:lightgray;
     padding: 5% 10%;
 }
- h1{
-font-size: 48px;
-text-align: center;
-}
+/* education-section */
 .education-section{
    padding-top:2%;
    padding-right:8%;
@@ -72,6 +68,7 @@ padding-top:3%;
     padding-top:5%;
     margin-right:-10px;
 }
+/* life at apple section */
 .apple{
     margin-top: -5px;
 }
@@ -83,10 +80,10 @@ padding-top:3%;
 .apple-first-text{
     padding-top:9%;
 }
-.apple-figure{
-    width:20%;
-    padding-top:4%;
+.steve-subhead{
+    font-family: 'Lemonada', cursive ;
 }
+/* battle with cancer section */
 .battle-heading{
     padding-bottom:3%;
 }
@@ -102,11 +99,10 @@ padding-top:3%;
     top:10%;
     bottom:20%;
     left:45%;
-    
      width:10% !important;
      border-radius: 100%;
-   
 }
+/* footer */
 footer{
     background-color: black;
     color: white;
@@ -122,11 +118,7 @@ footer p{
     color: white;
     position: relative;
 }
-@media  screen and (min-width:450px){
-.bg-text{
-    margin-bottom:300px;
-    margin-left:-20px !important;
-}
+@media only screen and (min-width:350px){
 .last-words-heading{
     font-size: 20px;
     text-align: center;
@@ -135,5 +127,40 @@ footer p{
     width: 15%;
     text-align: center;
 }
-
+.images{
+    width: 100%;
+}
+.last-words-heading{
+    font-size: 16px;
+}
+.bg-text{ 
+    position: absolute !important ;
+    top: 10% !important;
+    left:8% !important;
+}
+.bg-text h1{
+    font-size:25px !important;
+}
+.steve-heading{
+    font-size: 20px !important;
+}
+.steve-subhead{
+    font-size:18px;
+}
+}
+@media only screen and (min-width:768px){
+    .bg-text{
+        position: absolute !important;
+        top:10% !important;
+        left:5% !important;
+        color: white;
+        display:inline;
+    }
+     .bg-text h1{
+        font-size:60px !important;
+        font-weight: 600;
+    }
+    .bg-text p{
+    text-align: center;
+}
 }
